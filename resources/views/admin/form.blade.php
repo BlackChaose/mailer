@@ -13,7 +13,7 @@
     {{ Form::textArea('mailing_name',null,['class'=>'form-control is-invalid','rows'=>'2','required'=>'required','placeholder'=>'Новая рассылка']) }}
     @if($form_type==='create')
         <div class="invalid-feedback">
-            Пожалуйста добавьте комментарий, название рассылки (в письме его не будет).
+            Пожалуйста добавьте комментарий, название рассылки.
         </div>
         <div class="valid-feedback">
             ok!

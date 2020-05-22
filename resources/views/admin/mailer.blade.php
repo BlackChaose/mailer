@@ -193,7 +193,7 @@
                         xhttp.onreadystatechange = function () {
                             if (this.readyState == 4 && this.status == 200) {
                                 document.getElementById('btn_run_mailing').display = 'none';
-                                window.location.reload();//FIXME: <+++++++++++++++++======= TODO:comment for debug!
+                                //window.location.reload();//FIXME: <+++++++++++++++++======= TODO:comment for debug!
                             }
                         };
                         xhttp.open("POST", "{{route('run_mailing')}}", true);
