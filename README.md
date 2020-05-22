@@ -1,4 +1,4 @@
-*** Module "Mailer" for standart Laravel project ***
+### Module "Mailer" for standart Laravel project ###
 
 for install copy all folder and files in standarad laravel project (v.6.*)
 
@@ -10,7 +10,11 @@ and run command:
 
 ``` composer dumpauto ```
 
-**** License  (ISC) ****
+### REMEMBER ###
+
+add check auth for routes & controllers! (if you don't want to be spam-sender)
+
+#### License  (ISC) ####
 
 Copyright (c) 2020, Nikita Sergeevich Kalitin <nikita.s.kalitin@gmail.com>
 
